@@ -1,0 +1,114 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "global.scss";
+@mixin fjalla {font-family: 'Fjalla One', sans-serif;}
+@mixin lato {font-family: 'Lato', sans-serif;}
+@mixin buttons { color: white;background-color: transparent; padding: 20px; border: solid white 3px;
+font-size: 30px; transition: 0.3s;}
+@mixin buttonhover {background-color: #000; border: solid #000 3px;}
+/*updated scss*/
+#header, #ending { background-color:#1b3452;}
+body {@include fjalla;color:#fff;}
+.justify-content-start {
+  @include sm { -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important; justify-content: center !important;}
+  @include x-sm {-webkit-box-pack: center !important; -ms-flex-pack: center !important;
+    justify-content: center !important; }
+  @include xx-sm { @include sm { -webkit-box-pack: center !important;-ms-flex-pack: center !important;
+    justify-content: center !important;} }}
+ .displaynonemobundies { @include med {display:none !important; }
+   @include sm {display:none !important;}
+   @include x-sm {display:none !important;}
+   @include xx-sm {display:none !important;} }
+ .displaynonescreenundies { @include med {display:none !important;}
+   @include sm {display:inline !important;}
+   @include x-sm {display:inline !important;}
+   @include xlg {display:none !important;}
+   @include lg {display:none !important;}
+   @include xxlg {display:none !important;}}
+ .tabletonly {@include med {display:inline !important;}
+  @include xlg {display:none !important;}
+  @include lg {display:none !important;}
+  @include xxlg {display:none !important;}
+  @include sm {display:none !important;}
+  @include x-sm {display:none !important;}
+  @include xx-sm {display:none !important;}}
+h1 {font-size:5.5em; font-family: 'Fjalla One', sans-serif; margin-top: 1.5em;
+  @include xlg {font-size:4.5em; margin-top: 1em;}
+  @include lg {font-size:3.5em;margin-top: 1em;}
+  @include med {font-size:3em;margin-top: 0.5em;}
+  @include sm {font-size:3.5em;margin-bottom: 0.5em;}
+  @include x-sm {font-size:3em;margin-bottom: 0.5em;}
+  @include xx-sm {font-size:3.5em;margin-bottom: 0.5em;} }
+p {@include lato;font-size:1.3em;line-height: 1.3em;
+  @include xlg {font-size:1em;}
+  @include lg {font-size:0.8em;}
+  @include med {font-size:0.8em;}
+  @include sm {font-size:1em;}
+  @include x-sm {font-size:0.9em;}
+  @include xx-sm {font-size:1em;} }
+button {@include buttons;
+  a {color:#fff; text-decoration: none;}
+  a:hover {color:#fff; text-decoration: none;}
+  @include xlg {padding:0.8em;font-size:1.5em;}
+  @include lg {padding:0.5em;font-size:1.3em;}
+  @include med {padding:0.5em;font-size:1.3em;}}
+button:hover {@include buttonhover;}
+/*header*/
+#header {@include med {background: #1b3452 url("../images/herosm-gradient.jpg") no-repeat center center; background-size:100%;}
+  @include sm {background: #1b3452 url("../images/herosm-gradient.jpg") no-repeat center center;@include cover;}
+  @include x-sm {background: #1b3452 url("../images/herosm-gradient.jpg") no-repeat center center;@include cover;}
+  @include xx-sm {background: #1b3452 url("../images/herosm-gradient.jpg") no-repeat center center;@include cover;}
+  .logo {width:10em;margin-left:3em;margin-top:0.8em;
+    @include xlg {width:9em;}
+    @include lg {width:8em;}
+    @include med {width:7em;}
+    @include sm {margin-left:0em;}
+    @include x-sm {margin-left:0em;}
+    @include xx-sm {margin-left:0em;}}
+  .text-box {margin-left:7em;}
+    img {width:100%;} }
+/*undies*/
+#undies {background-color:#5db1f2;margin-top: -2px;
+  h1 {@include lg {font-size:3em;  margin-top: 1em;}
+    @include med {font-size:2.5em;margin-top: 0.5em;}
+    @include sm {text-align: center;font-size:2.5em;margin-bottom: 0.5em;margin-top:0.5em;}
+    @include x-sm {text-align: center;font-size:2em;margin-bottom: 0.5em;margin-top:0.5em;}
+    @include xx-sm {text-align: center;font-size:2em;margin-bottom: 0.5em;margin-top:0.5em;} }
+  p {@include lato;font-size:1.3em;line-height: 1.3em;
+    @include xlg {font-size:1em;}
+    @include lg {font-size:0.8em;}
+    @include med {text-align: center;font-size:1em;}
+    @include sm {text-align: center;font-size:1.5em;}
+    @include x-sm {text-align: center;font-size:0.9em;}
+    @include xx-sm {text-align: center;font-size:1em;} }
+  img {width:70%;
+    @include med {width:70%;}
+    @include sm {width:60%;}
+    @include x-sm {width:60%;}
+    @include xx-sm {width:60%;}}}
+/*risk free*/
+#riskfree {h1 {margin-top:-0.6em;
+    @include sm {font-size:2.5em;}
+    @include x-sm {font-size:1.8em;}}
+  .dimsum {width:55%;
+    @include sm {width:75%;}
+    @include x-sm {width:85%;}
+    @include xx-sm {width:85%;}}}
+/*ending*/
+#ending {@include med {background: #1b3452 url("../images/footerherogradient.jpg") no-repeat center center;@include cover;padding:3em;}
+  @include sm {background: #1b3452 url("../images/footerherogradient.jpg") no-repeat center center;@include cover;padding:2em;}
+  @include x-sm {background: #1b3452 url("../images/footerherogradient.jpg") no-repeat center center;@include cover;padding:2em;}
+  @include xx-sm {background: #1b3452 url("../images/footerherogradient.jpg") no-repeat center center;@include cover;}
+  h1 {padding-bottom:1em;
+    @include sm {padding-bottom:0.5em;}
+    @include x-sm {padding-bottom:0.5em;}
+    @include xx-sm {padding-bottom:0.5em;}}}
+/*footer*/
+#footer {background-color: #000;margin-top: -2px;
+  p {font-size:0.8em;}}
+/*end updated scss*/

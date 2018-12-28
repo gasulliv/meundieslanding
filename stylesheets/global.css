@@ -1,0 +1,972 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* variables*/
+/*mixins begin*/
+/*reactivity*/
+/*reactivity end*/
+/*begin general mixins*/
+/* A */
+/* B */
+/* C */
+/* D */
+/* E */
+/* F */
+/* G */
+/* H */
+/* I */
+/* J */
+/* K */
+/* L */
+/* M */
+/* N */
+/* O */
+/* P */
+/* Q */
+/* R */
+/* S */
+/* T */
+/* U */
+/* V */
+/* W */
+/*mixins end*/
+/*classes begin*/
+/* A */
+/* B */
+/* line 199, ../sass/global.scss */
+.bk-white {
+  background-color: white;
+}
+
+/* line 203, ../sass/global.scss */
+.bk-gray {
+  background-color: #e3e3e3;
+}
+
+/* line 207, ../sass/global.scss */
+.bk-blk {
+  background-color: white;
+}
+
+/* line 211, ../sass/global.scss */
+.btn-sm-blk {
+  padding: 1em;
+  font-size: 1em;
+  background-color: #000;
+  color: white;
+}
+
+/* C */
+/* line 217, ../sass/global.scss */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 0px;
+}
+
+/* line 221, ../sass/global.scss */
+.cardround {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 5px;
+}
+
+/* D */
+/*reactive display none*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 227, ../sass/global.scss */
+  .displaynonemob {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 227, ../sass/global.scss */
+  .displaynonemob {
+    display: none !important;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 227, ../sass/global.scss */
+  .displaynonemob {
+    display: none !important;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 227, ../sass/global.scss */
+  .displaynonemob {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 244, ../sass/global.scss */
+  .displaynonescreen {
+    display: inline !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 244, ../sass/global.scss */
+  .displaynonescreen {
+    display: inline !important;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 244, ../sass/global.scss */
+  .displaynonescreen {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1449.98px) {
+  /* line 244, ../sass/global.scss */
+  .displaynonescreen {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 244, ../sass/global.scss */
+  .displaynonescreen {
+    display: none !important;
+  }
+}
+@media (min-width: 1450px) and (max-width: 2048px) {
+  /* line 244, ../sass/global.scss */
+  .displaynonescreen {
+    display: none !important;
+  }
+}
+
+/*flexes for projects that use anything less than bootstrap 4.0*/
+/* line 272, ../sass/global.scss */
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+/* line 277, ../sass/global.scss */
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+/*margins*/
+/*margin-left*/
+/* line 285, ../sass/global.scss */
+.dml-half {
+  margin-left: 0.5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 285, ../sass/global.scss */
+  .dml-half {
+    margin-left: 0.25em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 285, ../sass/global.scss */
+  .dml-half {
+    margin-left: 0.25em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 285, ../sass/global.scss */
+  .dml-half {
+    margin-left: 0.25em;
+  }
+}
+
+/* line 298, ../sass/global.scss */
+.dml-1 {
+  margin-left: 1em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 298, ../sass/global.scss */
+  .dml-1 {
+    margin-left: 0.5em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 298, ../sass/global.scss */
+  .dml-1 {
+    margin-left: 0.5em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 298, ../sass/global.scss */
+  .dml-1 {
+    margin-left: 0.5em;
+  }
+}
+
+/* line 311, ../sass/global.scss */
+.dml-2 {
+  margin-left: 2em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 311, ../sass/global.scss */
+  .dml-2 {
+    margin-left: 1em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 311, ../sass/global.scss */
+  .dml-2 {
+    margin-left: 1em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 311, ../sass/global.scss */
+  .dml-2 {
+    margin-left: 1em;
+  }
+}
+
+/* line 324, ../sass/global.scss */
+.dml-3 {
+  margin-left: 3em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 324, ../sass/global.scss */
+  .dml-3 {
+    margin-left: 2em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 324, ../sass/global.scss */
+  .dml-3 {
+    margin-left: 2em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 324, ../sass/global.scss */
+  .dml-3 {
+    margin-left: 2em;
+  }
+}
+
+/* line 337, ../sass/global.scss */
+.dml-4 {
+  margin-left: 4em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 337, ../sass/global.scss */
+  .dml-4 {
+    margin-left: 3em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 337, ../sass/global.scss */
+  .dml-4 {
+    margin-left: 3em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 337, ../sass/global.scss */
+  .dml-4 {
+    margin-left: 3em;
+  }
+}
+
+/* line 350, ../sass/global.scss */
+.dml-5 {
+  margin-left: 5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 350, ../sass/global.scss */
+  .dml-5 {
+    margin-left: 4em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 350, ../sass/global.scss */
+  .dml-5 {
+    margin-left: 4em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 350, ../sass/global.scss */
+  .dml-5 {
+    margin-left: 4em;
+  }
+}
+
+/*margin right*/
+/* line 365, ../sass/global.scss */
+.dmr-half {
+  margin-right: 0.5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 365, ../sass/global.scss */
+  .dmr-half {
+    margin-rightp: 0.25em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 365, ../sass/global.scss */
+  .dmr-half {
+    margin-right: 0.25em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 365, ../sass/global.scss */
+  .dmr-half {
+    margin-right: 0.25em;
+  }
+}
+
+/* line 378, ../sass/global.scss */
+.dmr-1 {
+  margin-right: 1em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 378, ../sass/global.scss */
+  .dmr-1 {
+    margin-right: 0.5em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 378, ../sass/global.scss */
+  .dmr-1 {
+    margin-right: 0.5em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 378, ../sass/global.scss */
+  .dmr-1 {
+    margin-right: 0.5em;
+  }
+}
+
+/* line 391, ../sass/global.scss */
+.dmr-2 {
+  margin-right: 2em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 391, ../sass/global.scss */
+  .dmr-2 {
+    margin-right: 1em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 391, ../sass/global.scss */
+  .dmr-2 {
+    margin-right: 1em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 391, ../sass/global.scss */
+  .dmr-2 {
+    margin-right: 1em;
+  }
+}
+
+/* line 404, ../sass/global.scss */
+.dmr-3 {
+  margin-right: 3em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 404, ../sass/global.scss */
+  .dmr-3 {
+    margin-right: 2em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 404, ../sass/global.scss */
+  .dmr-3 {
+    margin-right: 2em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 404, ../sass/global.scss */
+  .dmr-3 {
+    margin-right: 2em;
+  }
+}
+
+/* line 417, ../sass/global.scss */
+.dmr-4 {
+  margin-right: 4em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 417, ../sass/global.scss */
+  .dmr-4 {
+    margin-right: 3em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 417, ../sass/global.scss */
+  .dmr-4 {
+    margin-right: 3em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 417, ../sass/global.scss */
+  .dmr-4 {
+    margin-right: 3em;
+  }
+}
+
+/* line 430, ../sass/global.scss */
+.dmr-5 {
+  margin-right: 5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 430, ../sass/global.scss */
+  .dmr-5 {
+    margin-right: 4em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 430, ../sass/global.scss */
+  .dmr-5 {
+    margin-right: 4em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 430, ../sass/global.scss */
+  .dmr-5 {
+    margin-right: 4em;
+  }
+}
+
+/*margin-bottom*/
+/* line 446, ../sass/global.scss */
+.dmb-half {
+  margin-bottom: 0.5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 446, ../sass/global.scss */
+  .dmb-half {
+    margin-bottom: 0.25em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 446, ../sass/global.scss */
+  .dmb-half {
+    margin-bottom: 0.25em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 446, ../sass/global.scss */
+  .dmb-half {
+    margin-bottom: 0.25em;
+  }
+}
+
+/* line 459, ../sass/global.scss */
+.dmb-1 {
+  margin-bottom: 1em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 459, ../sass/global.scss */
+  .dmb-1 {
+    margin-bottom: 0.5em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 459, ../sass/global.scss */
+  .dmb-1 {
+    margin-bottom: 0.5em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 459, ../sass/global.scss */
+  .dmb-1 {
+    margin-bottom: 0.5em;
+  }
+}
+
+/* line 472, ../sass/global.scss */
+.dmb-2 {
+  margin-top: 2em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 472, ../sass/global.scss */
+  .dmb-2 {
+    margin-bottom: 1em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 472, ../sass/global.scss */
+  .dmb-2 {
+    margin-bottom: 1em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 472, ../sass/global.scss */
+  .dmb-2 {
+    margin-bottom: 1em;
+  }
+}
+
+/* line 485, ../sass/global.scss */
+.dmb-3 {
+  margin-top: 3em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 485, ../sass/global.scss */
+  .dmb-3 {
+    margin-bottom: 2em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 485, ../sass/global.scss */
+  .dmb-3 {
+    margin-bottom: 2em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 485, ../sass/global.scss */
+  .dmb-3 {
+    margin-bottom: 2em;
+  }
+}
+
+/* line 498, ../sass/global.scss */
+.dmb-4 {
+  margin-bottom: 4em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 498, ../sass/global.scss */
+  .dmb-4 {
+    margin-bottom: 3em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 498, ../sass/global.scss */
+  .dmb-4 {
+    margin-bottom: 3em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 498, ../sass/global.scss */
+  .dmb-4 {
+    margin-bottom: 3em;
+  }
+}
+
+/* line 511, ../sass/global.scss */
+.dmb-5 {
+  margin-bottom: 5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 511, ../sass/global.scss */
+  .dmb-5 {
+    margin-bottom: 4em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 511, ../sass/global.scss */
+  .dmb-5 {
+    margin-bottom: 4em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 511, ../sass/global.scss */
+  .dmb-5 {
+    margin-bottom: 4em;
+  }
+}
+
+/*margin-top*/
+/* line 526, ../sass/global.scss */
+.dmt-half {
+  margin-top: 0.5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 526, ../sass/global.scss */
+  .dmt-half {
+    margin-top: 0.25em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 526, ../sass/global.scss */
+  .dmt-half {
+    margin-top: 0.25em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 526, ../sass/global.scss */
+  .dmt-half {
+    margin-top: 0.25em;
+  }
+}
+
+/* line 539, ../sass/global.scss */
+.dmt-1 {
+  margin-top: 1em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 539, ../sass/global.scss */
+  .dmt-1 {
+    margin-top: 0.5em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 539, ../sass/global.scss */
+  .dmt-1 {
+    margin-top: 0.5em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 539, ../sass/global.scss */
+  .dmt-1 {
+    margin-top: 0.5em;
+  }
+}
+
+/* line 552, ../sass/global.scss */
+.dmt-2 {
+  margin-top: 2em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 552, ../sass/global.scss */
+  .dmt-2 {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 552, ../sass/global.scss */
+  .dmt-2 {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 552, ../sass/global.scss */
+  .dmt-2 {
+    margin-top: 1em;
+  }
+}
+
+/* line 565, ../sass/global.scss */
+.dmt-3 {
+  margin-top: 3em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 565, ../sass/global.scss */
+  .dmt-3 {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 565, ../sass/global.scss */
+  .dmt-3 {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 565, ../sass/global.scss */
+  .dmt-3 {
+    margin-top: 2em;
+  }
+}
+
+/* line 578, ../sass/global.scss */
+.dmt-4 {
+  margin-top: 4em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 578, ../sass/global.scss */
+  .dmt-4 {
+    margin-top: 3em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 578, ../sass/global.scss */
+  .dmt-4 {
+    margin-top: 3em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 578, ../sass/global.scss */
+  .dmt-4 {
+    margin-top: 3em;
+  }
+}
+
+/* line 591, ../sass/global.scss */
+.dmt-5 {
+  margin-top: 5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 591, ../sass/global.scss */
+  .dmt-5 {
+    margin-top: 4em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 591, ../sass/global.scss */
+  .dmt-5 {
+    margin-top: 4em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 591, ../sass/global.scss */
+  .dmt-5 {
+    margin-top: 4em;
+  }
+}
+
+/*padding*/
+/* line 606, ../sass/global.scss */
+.dp-1 {
+  padding: 1em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 606, ../sass/global.scss */
+  .dp-1 {
+    padding: 0.5em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 606, ../sass/global.scss */
+  .dp-1 {
+    padding: 0.5em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 606, ../sass/global.scss */
+  .dp-1 {
+    padding: 0.5em;
+  }
+}
+
+/* line 619, ../sass/global.scss */
+.dp-2 {
+  padding: 2em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 619, ../sass/global.scss */
+  .dp-2 {
+    padding: 1em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 619, ../sass/global.scss */
+  .dp-2 {
+    padding: 1em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 619, ../sass/global.scss */
+  .dp-2 {
+    padding: 1em;
+  }
+}
+
+/* line 632, ../sass/global.scss */
+.dp-3 {
+  padding: 3em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 632, ../sass/global.scss */
+  .dp-3 {
+    padding: 2em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 632, ../sass/global.scss */
+  .dp-3 {
+    padding: 2em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 632, ../sass/global.scss */
+  .dp-3 {
+    padding: 2em;
+  }
+}
+
+/* line 645, ../sass/global.scss */
+.dp-4 {
+  padding: 4em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 645, ../sass/global.scss */
+  .dp-4 {
+    padding: 3em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 645, ../sass/global.scss */
+  .dp-4 {
+    padding: 3em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 645, ../sass/global.scss */
+  .dp-4 {
+    padding: 3em;
+  }
+}
+
+/* line 658, ../sass/global.scss */
+.dp-5 {
+  padding: 5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 658, ../sass/global.scss */
+  .dp-5 {
+    padding: 4em;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 658, ../sass/global.scss */
+  .dp-5 {
+    padding: 4em;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 658, ../sass/global.scss */
+  .dp-5 {
+    padding: 4em;
+  }
+}
+
+/* E */
+/* F */
+/* line 674, ../sass/global.scss */
+.flex-fill {
+  -ms-flex: 1 1 auto !important;
+  flex: 1 1 auto !important;
+}
+
+/* G */
+/* H */
+/* I */
+/* J */
+/*flexes for projects that use anything less than bootstrap 4.0*/
+/* line 687, ../sass/global.scss */
+.justify-content-start {
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+/* line 692, ../sass/global.scss */
+.justify-content-end {
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+}
+
+/* line 697, ../sass/global.scss */
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+/* K */
+/* L */
+/* M */
+/* N */
+/* O */
+/* P */
+/* Q */
+/* R */
+/* S */
+/* T */
+/* line 721, ../sass/global.scss */
+.text-white {
+  color: #fff;
+}
+
+/* line 725, ../sass/global.scss */
+.text-black {
+  color: #000;
+}
+
+/* W */
+/* line 731, ../sass/global.scss */
+.width5 {
+  width: 5%;
+}
+
+/* line 735, ../sass/global.scss */
+.width10 {
+  width: 10%;
+}
+
+/* line 739, ../sass/global.scss */
+.width25 {
+  width: 25%;
+}
+
+/* line 743, ../sass/global.scss */
+.width50 {
+  width: 50%;
+}
+
+/* line 751, ../sass/global.scss */
+.width75 {
+  width: 75%;
+}
+
+/* line 755, ../sass/global.scss */
+.width100 {
+  width: 100%;
+}
